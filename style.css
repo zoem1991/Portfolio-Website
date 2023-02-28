@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px; 
+    background-color: black;
+    color: whitesmoke;
+}
+
+h1 {
+    padding-left: 20px;
+    align-self: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 40px;
+    
+}
+
+nav ul li {
+    padding: 10px;
+    margin: 10px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.aboutme{
+    display: flex; 
+    grid-area: left;
+    text-align: center;
+    padding: 20px;  
+}
+
+.aboutme p {
+    align-self: center;
+}
+
+
+.image {
+    grid-area: right;
+    
+}
+
+img {
+    border-radius: 50%;
+}
+
+main {
+    display: grid;
+    grid-template-areas: 'left right';
+    gap: 10px; 
+    background-color: darkslategray;
+    position: relative;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
