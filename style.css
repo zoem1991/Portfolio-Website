@@ -57,9 +57,11 @@ img {
     border-radius: 50%;
 }
 
-main {
+.personal {
     display: grid;
-    grid-template-areas: 'left right';
+    grid-template-areas: 
+    'left right'
+    'projects projects';
     gap: 10px; 
     background-color: darkslategray;
     position: relative;
