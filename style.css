@@ -18,6 +18,10 @@ h1 {
     align-self: center;
 }
 
+#logo:hover {
+    color: blue; 
+}
+
 nav ul {
     display: flex;
     list-style-type: none;
@@ -35,6 +39,9 @@ nav ul li a {
     color: whitesmoke;
 }
 
+nav ul li a:hover {
+    color: blue; 
+}
 
 .aboutme{
     display: flex; 
@@ -72,3 +79,21 @@ img {
     border-radius: 10px;
 }
 
+main {
+    display: absolute
+
+}
+
+#projects {
+    display: block; 
+    margin: auto; 
+}
+
+.contactus {
+    display: flex;
+    justify-content: center;
+}
+
+.contactus h1 {
+    display: block;
+}
